@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( HOG_Descriptor )
+find_package( OpenCV REQUIRED )
+add_executable( HOG_Descriptor HOG_descriptor.cpp )
+target_link_libraries( HOG_Descriptor ${OpenCV_LIBS} )

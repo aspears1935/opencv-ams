@@ -1,0 +1,46 @@
+../../Data/Antarctica2014/jetty1.son
+Min (rangeres,bearingres,height,width)=0.041875,0.180528,796,256
+Max (rangeres,bearingres,height,width)=0.041875,0.180528,796,256
+
+../../Data/Antarctica2014/jetty2.son
+Min (rangeres,bearingres,height,width)=0.041875,0.180528,796,256
+Max (rangeres,bearingres,height,width)=0.041875,0.180528,796,256
+
+!!!
+../../Data/Antarctica2014/jetty3.son
+Min (rangeres,bearingres,height,width)=0.015625,0.180528,154,256
+Max (rangeres,bearingres,height,width)=0.041875,0.180528,796,256
+
+../../Data/Antarctica2014/jetty4.son
+Min (rangeres,bearingres,height,width)=0.031875,0.180528,715,256
+Max (rangeres,bearingres,height,width)=0.031875,0.180528,715,256
+
+../../Data/Antarctica2014/jetty5.son
+Min (rangeres,bearingres,height,width)=0.031875,0.180528,715,256
+Max (rangeres,bearingres,height,width)=0.031875,0.180528,715,256
+
+../../Data/Antarctica2014/jetty6.son
+Min (rangeres,bearingres,height,width)=0.031875,0.180528,715,256
+Max (rangeres,bearingres,height,width)=0.031875,0.180528,715,256
+
+../../Data/Antarctica2014/jetty7.son
+Min (rangeres,bearingres,height,width)=0.031875,0.180528,715,256
+Max (rangeres,bearingres,height,width)=0.031875,0.180528,715,256
+
+../../Data/Antarctica2014/jetty8.son
+Min (rangeres,bearingres,height,width)=0.031875,0.180528,715,256
+Max (rangeres,bearingres,height,width)=0.031875,0.180528,715,256
+
+../../Data/Antarctica2014/jetty9.son
+Min (rangeres,bearingres,height,width)=0.04875,0.180528,831,256
+Max (rangeres,bearingres,height,width)=0.04875,0.180528,831,256
+
+../../Data/Antarctica2014/jetty10.son
+Min (rangeres,bearingres,height,width)=0.04875,0.180528,831,256
+Max (rangeres,bearingres,height,width)=0.04875,0.180528,831,256
+
+!!!
+../../Data/Antarctica2014/jetty11.son
+Min (rangeres,bearingres,height,width)=0.0175,0.180528,414,256
+Max (rangeres,bearingres,height,width)=0.036875,0.180528,750,256
+

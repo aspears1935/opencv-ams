@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( BackProjectPatch )
+find_package( OpenCV REQUIRED )
+add_executable( BackProjectPatch back_project_patch.cpp )
+target_link_libraries( BackProjectPatch ${OpenCV_LIBS} )

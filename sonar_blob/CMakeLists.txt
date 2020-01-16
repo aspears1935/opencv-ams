@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( SonarBlob )
+find_package( OpenCV REQUIRED )
+add_executable( SonarBlob sonar_blob.cpp )
+target_link_libraries( SonarBlob ${OpenCV_LIBS} )

@@ -1,0 +1,532 @@
+Using OpenCV v3.0.0
+Initial Global Values: x,y,z,roll,pitch,yaw: 0,0,0,0,0,0
+Input frame resolution: Width=720  Height=576 Num of Frames=303 FPS=30
+CAMERA ANGLE = 30-DEG LINUX
+Old Cam Mat: [326.638, 0, 247.5;
+ 0, 432.628, 239.5;
+ 0, 0, 1]
+New Cam Mat: [429.0312933339156, 0, 247.5;
+ 0, 568.2466533975388, 239.5;
+ 0, 0, 1]
+fx ratio: 0.761338
+fy ratio: 0.761338
+princ_pt: [247.5, 239.5]
+VID SIZE: [720 x 576]
+Front Camera to Vehicle Matrix:
+RcamtoV = 
+[0, 0, 1;
+ 1, 0, 0;
+ 0, 1, 0]
+1/303
+I is 0 - saving fake previous image
+2/303
+3/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 32
+Theta x1,y1,z1 = -172.334,12.7874,152.396
+Theta x2,y2,z2 = -159.277,-28.7693,-29.5539
+4/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 32
+Theta x1,y1,z1 = 168.415,-1.65776,116.582
+Theta x2,y2,z2 = -166.073,-31.2909,-71.0171
+5/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -159.831,11.3889,120.14
+Theta x2,y2,z2 = -166.066,-28.2059,-58.8899
+6/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = 173.37,-25.6849,73.8962
+Theta x2,y2,z2 = -152.292,-13.6567,-118.044
+7/303
+8/303
+9/303
+10/303
+11/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 31
+Theta x1,y1,z1 = -116.701,6.63954,-83.3177
+Theta x2,y2,z2 = -165.17,14.4077,87.261
+12/303
+13/303
+14/303
+15/303
+16/303
+17/303
+18/303
+19/303
+20/303
+21/303
+22/303
+23/303
+24/303
+25/303
+26/303
+27/303
+28/303
+29/303
+30/303
+31/303
+32/303
+33/303
+34/303
+35/303
+36/303
+37/303
+38/303
+39/303
+40/303
+41/303
+42/303
+43/303
+44/303
+45/303
+46/303
+47/303
+48/303
+49/303
+50/303
+51/303
+52/303
+53/303
+54/303
+55/303
+56/303
+57/303
+58/303
+59/303
+60/303
+61/303
+62/303
+63/303
+64/303
+SURF Angles out of reasonable Range. Zeroed.
+[0;
+ 0;
+ 51.25755175093865]
+65/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -167.491,39.097,-169.465
+Theta x2,y2,z2 = -179.186,38.5049,3.19119
+66/303
+67/303
+68/303
+69/303
+70/303
+71/303
+72/303
+73/303
+74/303
+75/303
+76/303
+77/303
+SIFT Angles out of reasonable Range. Zeroed.
+[0;
+ 0;
+ -34.78850511311576]
+78/303
+79/303
+80/303
+81/303
+82/303
+83/303
+84/303
+85/303
+86/303
+87/303
+88/303
+89/303
+90/303
+91/303
+92/303
+93/303
+94/303
+95/303
+96/303
+97/303
+Video SIFT - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -148.967,3.12908,139.681
+Theta x2,y2,z2 = -173.401,-11.2025,-38.5588
+98/303
+99/303
+100/303
+101/303
+102/303
+103/303
+104/303
+105/303
+106/303
+107/303
+108/303
+109/303
+110/303
+111/303
+112/303
+113/303
+114/303
+115/303
+116/303
+117/303
+118/303
+119/303
+120/303
+121/303
+122/303
+123/303
+124/303
+125/303
+126/303
+127/303
+128/303
+129/303
+130/303
+131/303
+132/303
+133/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = 155.396,-37.887,-127.894
+Theta x2,y2,z2 = 172.883,-5.17032,45.374
+134/303
+Video SIFT - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 32
+Theta x1,y1,z1 = 165.053,18.2869,-171.663
+Theta x2,y2,z2 = -163.598,-20.6389,7.63658
+135/303
+136/303
+137/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = 174.258,-36.2189,-39.9335
+Theta x2,y2,z2 = 159.262,6.11304,144.265
+138/303
+139/303
+140/303
+141/303
+142/303
+143/303
+144/303
+145/303
+146/303
+147/303
+148/303
+149/303
+150/303
+151/303
+152/303
+153/303
+154/303
+155/303
+156/303
+157/303
+158/303
+159/303
+160/303
+161/303
+162/303
+163/303
+164/303
+165/303
+166/303
+167/303
+168/303
+169/303
+170/303
+171/303
+172/303
+173/303
+174/303
+175/303
+176/303
+HARRIS Angles out of reasonable Range. Zeroed.
+[0;
+ 0;
+ 31.61732090065103]
+177/303
+178/303
+179/303
+180/303
+181/303
+182/303
+183/303
+184/303
+185/303
+186/303
+187/303
+188/303
+189/303
+190/303
+191/303
+192/303
+193/303
+194/303
+195/303
+196/303
+197/303
+HARRIS Angles out of reasonable Range. Zeroed.
+[0;
+ 0;
+ -70.60387291645613]
+198/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 31
+Theta x1,y1,z1 = -154.08,-8.12658,3.25579
+Theta x2,y2,z2 = -178.909,12.1211,-177.637
+199/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -136.84,-19.0636,-171.286
+Theta x2,y2,z2 = -161.309,-39.733,21.0637
+200/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 32
+Theta x1,y1,z1 = 158.725,-2.70558,149.53
+Theta x2,y2,z2 = 117.455,-40.8124,-13.668
+201/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -149.44,-44.0441,-156.753
+Theta x2,y2,z2 = 174.526,-3.30504,39.1086
+202/303
+203/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = 165.27,-34.6159,-93.0704
+Theta x2,y2,z2 = 178.063,18.3243,84.8965
+204/303
+205/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -86.8331,-35.2391,103.614
+Theta x2,y2,z2 = 178.204,16.5643,-54.1288
+206/303
+207/303
+SURF Angles out of reasonable Range. Zeroed.
+[0;
+ 0;
+ 51.5542710582599]
+208/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -114.505,-24.643,116.316
+Theta x2,y2,z2 = 11.2345,-35.7428,-152.883
+209/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -159.231,-74.5865,-175.9
+Theta x2,y2,z2 = -174.451,-25.4362,16.9442
+210/303
+SURF Angles out of reasonable Range. Zeroed.
+[0;
+ 0;
+ 31.24087688071977]
+211/303
+212/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -157.592,-12.8502,146.736
+Theta x2,y2,z2 = -165.944,-6.96474,-31.8224
+213/303
+214/303
+215/303
+216/303
+SURF Angles out of reasonable Range. Zeroed.
+[0;
+ 0;
+ 41.68969300190626]
+217/303
+218/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 32
+Theta x1,y1,z1 = 168.631,-33.7651,-111.704
+Theta x2,y2,z2 = 163.966,-22.2811,70.4995
+219/303
+220/303
+SURF Angles out of reasonable Range. Zeroed.
+[0;
+ 0;
+ 42.07722294920342]
+221/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 32
+Theta x1,y1,z1 = 177.723,-10.4148,-162.612
+Theta x2,y2,z2 = 166.875,-4.19627,18.773
+222/303
+223/303
+224/303
+225/303
+226/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -165.332,12.6959,-143.501
+Theta x2,y2,z2 = -178.637,1.85489,34.7987
+227/303
+SIFT Angles out of reasonable Range. Zeroed.
+[0;
+ 0;
+ -34.18196619413195]
+228/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -151.413,42.7557,-85.1275
+Theta x2,y2,z2 = 164.505,34.4961,66.4349
+229/303
+SIFT Angles out of reasonable Range. Zeroed.
+[0;
+ 0;
+ -47.41043574734699]
+230/303
+231/303
+SURF Angles out of reasonable Range. Zeroed.
+[0;
+ 0;
+ 38.4805139173071]
+232/303
+233/303
+SIFT Angles out of reasonable Range. Zeroed.
+[0;
+ 0;
+ -40.43515888710932]
+234/303
+SURF Angles out of reasonable Range. Zeroed.
+[0;
+ 0;
+ -61.82682557548345]
+235/303
+236/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -171.036,43.0777,140.599
+Theta x2,y2,z2 = 177.055,-10.9376,-43.113
+237/303
+238/303
+239/303
+Video SIFT - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -169.387,-4.1573,66.5785
+Theta x2,y2,z2 = -137.723,37.8612,-103.356
+240/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -173.788,-8.57122,-46.2687
+Theta x2,y2,z2 = -158.446,43.7311,138.921
+241/303
+242/303
+243/303
+244/303
+245/303
+246/303
+247/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = 159.06,-20.0791,-155.844
+Theta x2,y2,z2 = -174.329,20.0201,24.1415
+248/303
+249/303
+250/303
+Video SIFT - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -176.759,6.72299,7.56898
+Theta x2,y2,z2 = -153.378,-19.6255,-175.167
+251/303
+SURF Angles out of reasonable Range. Zeroed.
+[0;
+ 0;
+ -37.31901641236871]
+252/303
+253/303
+254/303
+255/303
+SURF Angles out of reasonable Range. Zeroed.
+[0;
+ 0;
+ -43.65068905269897]
+256/303
+257/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -128.976,-55.7534,144.055
+Theta x2,y2,z2 = 173.26,6.67343,-5.95243
+258/303
+259/303
+260/303
+261/303
+262/303
+263/303
+264/303
+265/303
+266/303
+267/303
+268/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = 156.152,-18.6644,115.487
+Theta x2,y2,z2 = 170.066,-28.9424,-70.1743
+269/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 32
+Theta x1,y1,z1 = 155.743,-3.51358,166.367
+Theta x2,y2,z2 = 121.69,25.5944,-20.5679
+270/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -148.728,49.4584,-100.951
+Theta x2,y2,z2 = -174.395,8.57449,65.5982
+271/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = 168.944,-10.8846,83.9133
+Theta x2,y2,z2 = -163.419,20.74,-93.5707
+272/303
+273/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = 164.989,8.34353,-63.6767
+Theta x2,y2,z2 = 164.665,7.28779,116.279
+274/303
+275/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -165.419,27.9968,-119.434
+Theta x2,y2,z2 = -168.615,27.9445,59.0672
+276/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -134.226,41.2969,115.245
+Theta x2,y2,z2 = 166.396,-22.5204,-77.2598
+277/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -166.777,6.23889,-142.988
+Theta x2,y2,z2 = -178.307,0.1795,36.3637
+278/303
+279/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 32
+Theta x1,y1,z1 = -175.038,-1.31449,-119.023
+Theta x2,y2,z2 = -128.613,-10.1178,56.0712
+280/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 32
+Theta x1,y1,z1 = -170.751,5.44192,124.942
+Theta x2,y2,z2 = -150.89,-4.87128,-54.9575
+281/303
+282/303
+283/303
+284/303
+285/303
+SURF Angles out of reasonable Range. Zeroed.
+[0;
+ 0;
+ -102.3105821533713]
+286/303
+287/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 32
+Theta x1,y1,z1 = -178.376,12.734,-159.617
+Theta x2,y2,z2 = 177.34,-22.0239,20.7472
+288/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 32
+Theta x1,y1,z1 = -144.519,38.728,-126.837
+Theta x2,y2,z2 = -58.4104,52.3103,120.911
+289/303
+290/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 32
+Theta x1,y1,z1 = 178.643,16.9763,-168.006
+Theta x2,y2,z2 = -173.281,17.262,14.375
+291/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 32
+Theta x1,y1,z1 = -162.395,-5.76281,98.138
+Theta x2,y2,z2 = 146.649,-23.0793,-68.1722
+292/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = 172.345,-21.9471,18.836
+Theta x2,y2,z2 = 171.766,-9.6954,-161.005
+293/303
+SURF Angles out of reasonable Range. Zeroed.
+[0;
+ 0;
+ 30.57186959135209]
+294/303
+295/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 31
+Theta x1,y1,z1 = 170.628,-5.29454,-71.1697
+Theta x2,y2,z2 = 176.726,45.2085,111.133
+296/303
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 32
+Theta x1,y1,z1 = -143.596,58.8396,-106.147
+Theta x2,y2,z2 = -140.408,36.9226,76.2623
+297/303
+298/303
+299/303
+300/303
+301/303
+302/303
+303/303
+Video SIFT - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -148.947,5.87906,-179.469
+Theta x2,y2,z2 = -176.735,-13.8585,2.53228

@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( ImagelistCreator )
+find_package( OpenCV REQUIRED )
+add_executable( ImagelistCreator imagelist_creator.cpp )
+target_link_libraries( ImagelistCreator ${OpenCV_LIBS} )

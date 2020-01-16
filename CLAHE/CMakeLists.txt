@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( CLAHE )
+find_package( OpenCV REQUIRED )
+add_executable( CLAHE CLAHE.cpp )
+target_link_libraries( CLAHE ${OpenCV_LIBS} )

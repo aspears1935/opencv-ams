@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( SURFdescriptor )
+find_package( OpenCV REQUIRED )
+add_executable( SURFdescriptor SURF_descriptor.cpp )
+target_link_libraries( SURFdescriptor ${OpenCV_LIBS} )

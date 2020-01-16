@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( ConnectedComponents )
+find_package( OpenCV REQUIRED )
+add_executable( ConnectedComponents connected_components.cpp )
+target_link_libraries( ConnectedComponents ${OpenCV_LIBS} )

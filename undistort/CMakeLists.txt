@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( Undistort )
+find_package( OpenCV REQUIRED )
+add_executable( Undistort undistort.cpp )
+target_link_libraries( Undistort ${OpenCV_LIBS} )

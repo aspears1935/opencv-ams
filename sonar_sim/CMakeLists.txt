@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( SonarSim )
+find_package( OpenCV REQUIRED )
+add_executable( SonarSim sonar_sim.cpp )
+target_link_libraries( SonarSim ${OpenCV_LIBS} )

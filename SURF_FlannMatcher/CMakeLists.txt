@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( SURFFlannMatcher )
+find_package( OpenCV REQUIRED )
+add_executable( SURFFlannMatcher SURF_FlannMatcher.cpp RANSAC.cpp)
+target_link_libraries( SURFFlannMatcher ${OpenCV_LIBS} )

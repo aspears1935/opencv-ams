@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( DFT )
+find_package( OpenCV 3.0.0 EXACT REQUIRED )
+add_executable( DFT discrete_fourier_transform.cpp )
+target_link_libraries( DFT ${OpenCV_LIBS} )
+include_directories(${OpenCV_INCLUDE_DIRS})

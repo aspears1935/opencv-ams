@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( BlobDetector )
+find_package( OpenCV REQUIRED )
+add_executable( BlobDetector SimpleBlobDetector_demo.cpp )
+target_link_libraries( BlobDetector ${OpenCV_LIBS} )

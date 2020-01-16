@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( CannyEdges )
+find_package( OpenCV REQUIRED )
+add_executable( CannyEdges canny_edges.cpp )
+target_link_libraries( CannyEdges ${OpenCV_LIBS} )

@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( HSV-Split )
+find_package( OpenCV 3.0.0 EXACT REQUIRED)
+include_directories(${OpenCV_INCLUDE_DIRS})
+add_executable( HSV-Split hsv_split.cpp )
+target_link_libraries( HSV-Split ${OpenCV_LIBS} )

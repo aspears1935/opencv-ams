@@ -1,0 +1,319 @@
+Using OpenCV v3.0.0
+Initial Global Values: x,y,z,roll,pitch,yaw: 0,0,0,0,0,0
+Input frame resolution: Width=720  Height=576 Num of Frames=167 FPS=30
+CAMERA ANGLE = 30-DEG LINUX
+Old Cam Mat: [326.638, 0, 247.5;
+ 0, 432.628, 239.5;
+ 0, 0, 1]
+New Cam Mat: [429.0312933339156, 0, 247.5;
+ 0, 568.2466533975388, 239.5;
+ 0, 0, 1]
+fx ratio: 0.761338
+fy ratio: 0.761338
+princ_pt: [247.5, 239.5]
+VID SIZE: [720 x 576]
+Front Camera to Vehicle Matrix:
+RcamtoV = 
+[0, 0, 1;
+ 1, 0, 0;
+ 0, 1, 0]
+1/167
+I is 0 - saving fake previous image
+2/167
+3/167
+4/167
+5/167
+6/167
+7/167
+SURF Angles out of reasonable Range. Zeroed.
+[0;
+ 0;
+ -31.32222080328098]
+8/167
+9/167
+Video SIFT - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = 162.533,-9.90369,138.673
+Theta x2,y2,z2 = 178.749,-20.9958,-45.6939
+10/167
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 31
+Theta x1,y1,z1 = 131.434,-33.3928,20.9912
+Theta x2,y2,z2 = -169.287,0.409779,-178.173
+11/167
+Video HARRIS - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 32
+Theta x1,y1,z1 = 177.669,2.25883,94.4883
+Theta x2,y2,z2 = 155.772,-35.748,-78.7649
+12/167
+13/167
+Video SIFT - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 32
+Theta x1,y1,z1 = -174.222,4.07923,110.666
+Theta x2,y2,z2 = -140.439,-2.76322,-68.9335
+14/167
+15/167
+SIFT Angles out of reasonable Range. Zeroed.
+[0;
+ 0;
+ 45.15523233846636]
+16/167
+17/167
+18/167
+19/167
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -137.531,16.5033,-179.984
+Theta x2,y2,z2 = 177.407,-25.9988,4.23623
+20/167
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 0
+Theta x1,y1,z1 = -23.9927,34.1049,80.1959
+Theta x2,y2,z2 = -17.8806,-10.6549,-98.4596
+Video SIFT - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -143.221,11.1788,164.626
+Theta x2,y2,z2 = 179.905,-43.1227,-3.60196
+21/167
+Video SIFT - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = 172.219,-33.7952,8.68558
+Theta x2,y2,z2 = -145.333,-2.56399,174.344
+22/167
+23/167
+24/167
+25/167
+26/167
+27/167
+28/167
+29/167
+30/167
+31/167
+32/167
+33/167
+34/167
+35/167
+36/167
+37/167
+38/167
+39/167
+40/167
+41/167
+42/167
+43/167
+44/167
+45/167
+46/167
+47/167
+48/167
+49/167
+50/167
+51/167
+Video SIFT - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -179.696,3.06547,-14.1785
+Theta x2,y2,z2 = 172.966,-1.8808,165.745
+52/167
+53/167
+54/167
+55/167
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 31
+Theta x1,y1,z1 = -172.198,-15.5217,-80.6316
+Theta x2,y2,z2 = -179.724,-24.093,101.929
+56/167
+57/167
+58/167
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -174.098,0.571525,-51.1808
+Theta x2,y2,z2 = -161.282,-13.3167,127.38
+59/167
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = 174.2,20.917,47.0876
+Theta x2,y2,z2 = -162.1,-19.3866,-132.57
+Video SIFT - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -165.99,-9.01184,-128.463
+Theta x2,y2,z2 = 176.634,10.0073,51.3824
+Video HARRIS - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -148.158,4.44755,-123.496
+Theta x2,y2,z2 = -178.358,0.667942,55.1233
+60/167
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 32
+Theta x1,y1,z1 = -176.364,-10.5463,145.771
+Theta x2,y2,z2 = -174.531,-28.4895,-34.8493
+61/167
+Video SIFT - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -158.04,-0.615022,-158.653
+Theta x2,y2,z2 = 178.206,-13.5814,24.3432
+Video HARRIS - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -164.641,-18.8873,-95.7152
+Theta x2,y2,z2 = -176.272,-4.26762,86.6459
+62/167
+63/167
+Video SIFT - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -162.651,-9.29699,-113.738
+Theta x2,y2,z2 = -176.483,4.54858,66.8417
+Video HARRIS - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = 179.667,-4.29944,81.7354
+Theta x2,y2,z2 = -163.655,-1.28424,-99.083
+64/167
+Video SIFT - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = 166.908,-30.7156,-68.2786
+Theta x2,y2,z2 = -161.165,17.0162,107.449
+65/167
+66/167
+Video SIFT - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -169.486,-30.8613,17.7089
+Theta x2,y2,z2 = -160.804,1.59547,-164.579
+67/167
+68/167
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -151.91,12.7675,113.816
+Theta x2,y2,z2 = 168.155,-23.2661,-62.1806
+Video SIFT - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -166.924,-40.9943,-43.1859
+Theta x2,y2,z2 = -147.904,5.75431,130.49
+69/167
+Video SIFT - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -155.858,4.16217,-151.465
+Theta x2,y2,z2 = -163.734,-40.3531,31.1814
+Video HARRIS - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 31
+Theta x1,y1,z1 = -152.817,-3.96241,-85.8544
+Theta x2,y2,z2 = -160.599,7.90871,93.8758
+70/167
+71/167
+72/167
+73/167
+Video SIFT - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -154.392,-3.07284,-133.85
+Theta x2,y2,z2 = -163.942,-24.4179,48.4643
+74/167
+75/167
+Video SIFT - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -170.773,-2.41433,-115.017
+Theta x2,y2,z2 = 171.066,-22.4397,68.9838
+76/167
+77/167
+78/167
+79/167
+Video HARRIS - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 32
+Theta x1,y1,z1 = -171.433,1.47499,-113.971
+Theta x2,y2,z2 = 159.648,-24.2616,72.0114
+80/167
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 32
+Theta x1,y1,z1 = -168.402,-30.0639,-161.253
+Theta x2,y2,z2 = 161.305,-9.47941,29.3806
+Video SIFT - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 32
+Theta x1,y1,z1 = -172.16,-1.07521,-102.571
+Theta x2,y2,z2 = 158.491,-33.4429,86.6793
+81/167
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = 173.708,-19.2446,17.238
+Theta x2,y2,z2 = -110.888,-76.6647,130.832
+82/167
+SURF Angles out of reasonable Range. Zeroed.
+[0;
+ 0;
+ 41.04207485228358]
+Video HARRIS - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 32
+Theta x1,y1,z1 = -164.856,-13.523,-148.28
+Theta x2,y2,z2 = 133.422,-22.8936,52.9426
+83/167
+84/167
+Video SIFT - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -176.763,15.953,2.25378
+Theta x2,y2,z2 = -154.474,-36.1024,177.861
+85/167
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -177.608,-1.53809,10.7496
+Theta x2,y2,z2 = -150.736,21.4047,-164.435
+Video SIFT - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -149.516,43.1097,-118.104
+Theta x2,y2,z2 = -178.782,-16.9747,54.0938
+86/167
+Video SIFT - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 0
+Theta x1,y1,z1 = 34.5451,22.9804,-85.03
+Theta x2,y2,z2 = -6.47121,-8.71567,89.4421
+87/167
+88/167
+89/167
+90/167
+91/167
+92/167
+93/167
+94/167
+95/167
+96/167
+97/167
+98/167
+99/167
+100/167
+101/167
+102/167
+103/167
+104/167
+105/167
+106/167
+107/167
+108/167
+109/167
+110/167
+111/167
+112/167
+113/167
+114/167
+115/167
+116/167
+117/167
+118/167
+119/167
+120/167
+121/167
+122/167
+Video SIFT - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -153.708,-36.938,140.304
+Theta x2,y2,z2 = -176.515,-6.16348,-30.9081
+123/167
+124/167
+Video HARRIS - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -172.106,-11.3531,-44.2563
+Theta x2,y2,z2 = -164.705,-33.5464,132.86
+125/167
+126/167
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = 163.416,-1.49162,152.929
+Theta x2,y2,z2 = 179.134,2.64628,-26.911
+127/167
+128/167
+129/167
+130/167
+131/167
+Video SIFT - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -175.192,-7.82993,-82.3453
+Theta x2,y2,z2 = 159.837,-8.51013,101.26
+132/167
+133/167
+134/167
+135/167
+136/167
+137/167
+138/167
+139/167
+140/167
+141/167
+142/167
+143/167
+144/167
+145/167
+146/167
+147/167
+148/167
+149/167
+150/167
+151/167
+152/167
+153/167
+154/167
+155/167
+156/167
+157/167
+158/167
+159/167
+160/167
+161/167
+162/167
+163/167
+164/167
+165/167
+166/167
+167/167

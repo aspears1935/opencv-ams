@@ -1,0 +1,98 @@
+Using OpenCV v3.0.0
+Initial Global Values: x,y,z,roll,pitch,yaw: 0,0,0,0,0,0
+Input frame resolution: Width=720  Height=576 Num of Frames=33 FPS=30
+CAMERA ANGLE = 30-DEG LINUX
+Old Cam Mat: [326.638, 0, 247.5;
+ 0, 432.628, 239.5;
+ 0, 0, 1]
+New Cam Mat: [429.0312933339156, 0, 247.5;
+ 0, 568.2466533975388, 239.5;
+ 0, 0, 1]
+fx ratio: 0.761338
+fy ratio: 0.761338
+princ_pt: [247.5, 239.5]
+VID SIZE: [720 x 576]
+Front Camera to Vehicle Matrix:
+RcamtoV = 
+[0, 0, 1;
+ 1, 0, 0;
+ 0, 1, 0]
+1/33
+I is 0 - saving fake previous image
+2/33
+SIFT Angles out of reasonable Range. Zeroed.
+[0;
+ 0;
+ -44.55742548603088]
+3/33
+4/33
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = 173.48,18.4636,-167.7
+Theta x2,y2,z2 = 177.894,-17.9086,12.3229
+5/33
+6/33
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 31
+Theta x1,y1,z1 = 161.834,-47.3246,-2.82925
+Theta x2,y2,z2 = 175.003,0.328215,171.41
+7/33
+NO SURF MODEL FOUND
+8/33
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = 160.727,55.2926,155.92
+Theta x2,y2,z2 = -176.09,-26.0837,-16.276
+9/33
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 31
+Theta x1,y1,z1 = -159.04,32.6542,9.62345
+Theta x2,y2,z2 = 175.071,-3.68558,-177.302
+10/33
+NO SURF MODEL FOUND
+11/33
+12/33
+13/33
+14/33
+15/33
+16/33
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -123.966,57.9825,-100.757
+Theta x2,y2,z2 = 159.095,-39.1109,56.9791
+17/33
+18/33
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = -167.217,12.6396,-86.7063
+Theta x2,y2,z2 = 158.739,3.35526,88.3996
+19/33
+SURF Angles out of reasonable Range. Zeroed.
+[0;
+ 0;
+ -55.53122992791235]
+20/33
+21/33
+22/33
+23/33
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 32
+Theta x1,y1,z1 = 178.632,3.02651,-115.224
+Theta x2,y2,z2 = -138.977,-11.8541,61.3286
+24/33
+Video SURF - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 31
+Theta x1,y1,z1 = 110.13,-47.4811,-68.5643
+Theta x2,y2,z2 = 159.455,-24.126,80.7593
+25/33
+SURF Angles out of reasonable Range. Zeroed.
+[0;
+ 0;
+ 61.6898319469103]
+26/33
+27/33
+Video HARRIS - NEITHER ROT MAT WORKS. Setting angles to 0,0,0. FLAG = 30
+Theta x1,y1,z1 = 166.062,1.54139,75.1681
+Theta x2,y2,z2 = 162.046,-56.8836,-102.695
+28/33
+29/33
+30/33
+31/33
+32/33
+SURF Angles out of reasonable Range. Zeroed.
+[0;
+ 0;
+ 30.59845145590977]
+33/33

@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( HOGsobel )
+find_package( OpenCV REQUIRED )
+add_executable( HOGsobel HOGsobel.cpp )
+target_link_libraries( HOGsobel ${OpenCV_LIBS} )

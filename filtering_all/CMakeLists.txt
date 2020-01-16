@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( FilteringAll )
+find_package( OpenCV REQUIRED )
+add_executable( FilteringAll filtering_all.cpp )
+target_link_libraries( FilteringAll ${OpenCV_LIBS} )
