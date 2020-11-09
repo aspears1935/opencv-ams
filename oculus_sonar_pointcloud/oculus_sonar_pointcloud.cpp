@@ -32,8 +32,9 @@ int const max_morph_value=10;
 int const max_morph_nerode = 5;
 int const max_morph_ndilate = 5;
 
-Mat src, src_gray, src_masked_gray, dst, output_gray, blurred, thresholded, eroded, dilated;
+Mat src, src_gray, src_masked_gray, dst, output_gray, output_concat, blurred, thresholded, eroded, dilated;
 const char* window_name = "Threshold Demo";
+const char* trackbars_name = "Trackbars";
 
 const char* trackbar_type = "Type: \n 0: Binary \n 1: Binary Inverted \n 2: Truncate \n 3: To Zero \n 4: To Zero Inverted";
 const char* trackbar_value = "Value";
@@ -92,7 +93,12 @@ static void on_threshold_trackbar( int, void* )
 
     dilated.copyTo(output_gray);
 
-    imshow( window_name, output_gray );
+    //Create concat output/input image
+    hconcat(src_masked_gray,output_gray,output_concat);
+    Mat output_concat_small;
+    resize(output_concat,output_concat_small,Size(),0.5,0.5);
+
+    imshow( window_name, output_concat_small );
 }
 
 /**
@@ -146,36 +152,39 @@ int main( int argc, char** argv )
 	      
     //Display image 
     namedWindow("Masked Output", WINDOW_AUTOSIZE);
-    imshow("Masked Output", output);
-    waitKey(0);
+    //    imshow("Masked Output", output);
+    //waitKey(0);
 
     string outputName=imageName+".png";
     
     imwrite(outputName, output_bgra);
 
+    //Create concat output/input image
+    hconcat(src_masked_gray,src_masked_gray,output_concat);
 
     //Threshold image
     threshold_value=0;
     namedWindow(window_name,WINDOW_AUTOSIZE); //Create Window
-    createTrackbar(trackbar_value,window_name,&threshold_value,threshold_max_binary_value,on_threshold_trackbar);
+    namedWindow(trackbars_name,WINDOW_AUTOSIZE); //Create Trackbar Window
+    createTrackbar(trackbar_value,trackbars_name,&threshold_value,threshold_max_binary_value,on_threshold_trackbar);
     on_threshold_trackbar(threshold_value, 0);
 
-    createTrackbar(trackbar_type, window_name, &threshold_type, threshold_max_type, on_threshold_trackbar);
+    createTrackbar(trackbar_type, trackbars_name, &threshold_type, threshold_max_type, on_threshold_trackbar);
     on_threshold_trackbar(threshold_type, 0);
 
-    createTrackbar(trackbar_blur_value, window_name, &blur_value, blur_max_value, on_threshold_trackbar);
+    createTrackbar(trackbar_blur_value, trackbars_name, &blur_value, blur_max_value, on_threshold_trackbar);
     on_threshold_trackbar(blur_value, 0);
 
-    createTrackbar(trackbar_blur_type, window_name, &blur_type, blur_max_type, on_threshold_trackbar);
+    createTrackbar(trackbar_blur_type, trackbars_name, &blur_type, blur_max_type, on_threshold_trackbar);
     on_threshold_trackbar(blur_type, 0);
 
-    createTrackbar(trackbar_nerode, window_name, &morph_nerode, max_morph_nerode, on_threshold_trackbar);
+    createTrackbar(trackbar_nerode, trackbars_name, &morph_nerode, max_morph_nerode, on_threshold_trackbar);
     on_threshold_trackbar(morph_nerode, 0);
 
-    createTrackbar(trackbar_ndilate, window_name, &morph_ndilate, max_morph_ndilate, on_threshold_trackbar);
+    createTrackbar(trackbar_ndilate, trackbars_name, &morph_ndilate, max_morph_ndilate, on_threshold_trackbar);
     on_threshold_trackbar(morph_ndilate, 0);
 
-    createTrackbar(trackbar_morph_value, window_name, &morph_value, max_morph_value, on_threshold_trackbar);
+    createTrackbar(trackbar_morph_value, trackbars_name, &morph_value, max_morph_value, on_threshold_trackbar);
     on_threshold_trackbar(morph_value, 0);
 
     waitKey(0);     
