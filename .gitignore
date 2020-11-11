@@ -1,0 +1,15 @@
+*.png
+*~
+*.cmake
+*CMakeCache.txt
+*CMakeFiles*
+*Makefile
+canny_edges/CannyEdges
+feature_match/FeatureDetect
+feature_match/FeatureMatch
+oculus_sonar_pointcloud/OculusSonarPointCloud
+oculus_sonar_template/OculusSonarTemplate
+opencv-text-detection/break/
+opencv-text-detection/env/
+opencv-text-detection/frozen_east_text_detection.pb
+opencv-text-detection/images/
