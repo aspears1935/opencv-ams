@@ -109,7 +109,9 @@ int main( int argc, char** argv )
     //! [load]
   //    String imageName("/media/aspears3/Data/Oculus_20191107_160554_20191106_220719.png"); // by default
     String imageDir("/media/aspears3/Data/");
-    String imageName("Oculus_20191107_160554_20191106_220719");
+    //String imageName("Oculus_20191107_160554_20191106_220719");
+    //String imageName("Oculus_20191107_160554_20191106_221103_output");
+    String imageName("Oculus_20191107_160554_20191106_220627");
     String imageExt(".png");
 
     //string imagePath = imageDir+imageName+imageExt;
