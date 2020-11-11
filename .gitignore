@@ -13,3 +13,5 @@ opencv-text-detection/break/
 opencv-text-detection/env/
 opencv-text-detection/frozen_east_text_detection.pb
 opencv-text-detection/images/
+opencv-text-recognition/frozen_east_text_detection.pb
+opencv-text-recognition/images/
