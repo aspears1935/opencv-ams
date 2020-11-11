@@ -15,6 +15,9 @@ fps_out = 5
 # Open video file for reading
 in_vid = cv2.VideoCapture(in_filename)
 
+# Open txt file for writing
+out_txt = open("times.txt","w")
+
 #Exit if video not opened.
 if not in_vid.isOpened():
     print('Can\'t open input video file')
@@ -25,7 +28,7 @@ ok, frame = in_vid.read()
 if not ok:
     print('Can\'t read video file')
     sys.exit()
-cv2.imwrite("%06d.png" % 0, frame)
+#cv2.imwrite("%06d.png" % 0, frame)
 
 width, height = frame.shape[1], frame.shape[0
 ]
@@ -34,11 +37,16 @@ fps = in_vid.get(cv2.CAP_PROP_FPS)
 print("input video fps:", fps)
 
 frame_counter = 0
+i=0
 
 while True:
     if ((frame_counter % (fps/fps_out)) == 0):
-        cv2.imwrite("%06d.png" % frame_counter, frame)
-        print("%06d.png" % frame_counter)
+        cv2.imwrite("%06d.png" % i, frame)
+        print("%06d.png" % i)
+        t=frame_counter/fps
+        out_txt.write(str(t))
+        out_txt.write('\n')
+        i += 1
 
     # Read a new frame
     ok, frame = in_vid.read()
@@ -46,6 +54,8 @@ while True:
         break
 
     frame_counter += 1
+
+out_txt.close()
 
 # Selecting one every n frames from a video using FFmpeg:
 # https://superuser.com/questions/1274661/selecting-one-every-n-frames-from-a-video-using-ffmpeg 
