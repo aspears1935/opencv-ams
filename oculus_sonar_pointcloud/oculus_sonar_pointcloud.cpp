@@ -36,6 +36,7 @@ int const max_morph_nerode = 5;
 int const max_morph_ndilate = 5;
 
 Mat src, src_gray, src_masked_gray, dst, output_gray, output_concat, blurred, thresholded, eroded, dilated;
+Mat mask, mask_gray, mask_gray_vid, mask_bgra, output, output_bgra;
 Mat output_concat_small;
 const char* window_name = "Threshold Demo";
 const char* trackbars_name = "Trackbars";
@@ -53,7 +54,8 @@ const char* trackbar_morph_value = "Morphological Elem Size";
  */
 static void on_threshold_trackbar( int, void* )
 {
-  src.copyTo(src_masked_gray);
+  cvtColor( src, src_gray, COLOR_BGR2GRAY ); // Convert the image to Gray
+  src.copyTo(src_masked_gray, mask_gray);
   //Blur image to reduce noise
     int blur_kernel_size=blur_value*2+1; //must be odd and non-zero
     if(blur_type==0)
@@ -154,6 +156,7 @@ int main( int argc, char** argv )
       return -1;
     }
     cap >> src;
+    imwrite("vidFrame.png", src);
   }
   else {
     src = imread(filePath, IMREAD_COLOR ); // Load an image
@@ -166,14 +169,27 @@ int main( int argc, char** argv )
   
   ////////////////////////////////////////////////
   //NOW MASK THE IMAGE///////////
-  Mat mask, mask_gray, mask_bgra, output, output_bgra;
+  //Mat mask, mask_gray, mask_gray_vid, mask_bgra, output, output_bgra;
   mask = imread( "oculus_template_cleaned.png", IMREAD_COLOR ); // Load an image
   cvtColor( mask, mask_gray, COLOR_BGR2GRAY ); // Convert the image to Gray
   cvtColor( mask, mask_bgra, COLOR_BGR2BGRA ); // Convert the image to Gray
   cvtColor( src, src_gray, COLOR_BGR2GRAY ); // Convert the image to Gray
 
-  src.copyTo(output); //, mask_gray);
-  src_gray.copyTo(src_masked_gray); //, mask_gray);
+  //If this is a video, the mask needs to be 100 pixels shorter than the image inputs, 60 pix trimmed off top and 40 trimmed off bottom
+  if(isVideo) {
+    //copyMakeBorder(mask_gray, mask_gray_vid, 100, 0, 0, 0, BORDER_REPLICATE);
+    Rect vidROI(0,60,1920,1060);
+    mask_gray_vid=mask_gray(vidROI);
+    mask_gray_vid.copyTo(mask_gray);
+  }
+
+  src.copyTo(output, mask_gray);
+  src_gray.copyTo(src_masked_gray, mask_gray);
+
+  //cout << "Mask Size: " << mask.size() << endl;
+  //cout << "Vid Mask Size: " << mask_gray_vid.size() << endl;
+  //cout << "Img Size: " << src.size() << endl;
+  //imwrite("oculus_video_mask.png",mask_gray_vid);
   
   //    bitwise_not(mask_gray,maskInv);
   
@@ -187,8 +203,8 @@ int main( int argc, char** argv )
   //merge(channels, output_bgra);
   
   //Display image 
-  namedWindow("Masked Output", WINDOW_AUTOSIZE);
-  //    imshow("Masked Output", output);
+  //namedWindow("Masked Output", WINDOW_AUTOSIZE);
+  //imshow("Masked Output", output);
   //waitKey(0);
   
   //string outputName=imageName+".png";
