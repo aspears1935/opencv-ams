@@ -49,6 +49,8 @@ const char* trackbar_nerode = "Number of Erosions";
 const char* trackbar_ndilate = "Number of Dilations";
 const char* trackbar_morph_value = "Morphological Elem Size";
 
+VideoWriter outputVideo;
+
 /**
  * @function on_threshold_trackbar
  */
@@ -104,8 +106,11 @@ static void on_threshold_trackbar( int, void* )
     hconcat(src_masked_gray,output_gray,output_concat);
 
     resize(output_concat,output_concat_small,Size(),0.5,0.5);
-
+    
     imshow( window_name, output_concat_small );
+    if (outputVideo.isOpened()) {
+      outputVideo << output_concat_small; //output_gray;
+    }
 }
 
 /**
@@ -157,6 +162,15 @@ int main( int argc, char** argv )
     }
     cap >> src;
     imwrite("vidFrame.png", src);
+
+    Size S = Size((int)cap.get(CAP_PROP_FRAME_WIDTH),(int) (cap.get(CAP_PROP_FRAME_HEIGHT)/2));
+    cout << S << endl;
+    cout << cap.get(CAP_PROP_FOURCC) << endl;
+    outputVideo.open("output.avi", VideoWriter::fourcc('X','V','I','D'), cap.get(CAP_PROP_FPS), S, true);
+    if (!outputVideo.isOpened()) {
+      cout  << "Could not open the output video for write" << endl;
+      return -1;
+    }
   }
   else {
     src = imread(filePath, IMREAD_COLOR ); // Load an image
