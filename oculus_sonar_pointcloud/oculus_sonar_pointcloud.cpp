@@ -19,7 +19,7 @@ using namespace std;
 using std::cout;
 
 /// Global variables
-int threshold_value = 0;
+int threshold_value = 130;
 int threshold_type = 3;
 int const threshold_max_value = 255;
 int const threshold_max_type = 4;
@@ -28,9 +28,9 @@ int blur_value = 0;
 int blur_type = 0;
 int const blur_max_value=10;
 int const blur_max_type=4;
-int morph_value = 0; //size
-int morph_nerode = 0;  //number of erosions
-int morph_ndilate = 0;  //number of dilations
+int morph_value = 1; //size
+int morph_nerode = 1;  //number of erosions
+int morph_ndilate = 1;  //number of dilations
 int const max_morph_value=10;
 int const max_morph_nerode = 5;
 int const max_morph_ndilate = 5;
@@ -228,7 +228,7 @@ int main( int argc, char** argv )
   hconcat(src_masked_gray,src_masked_gray,output_concat);
   
   //Threshold image
-  threshold_value=0;
+  //threshold_value=0;
   namedWindow(window_name,WINDOW_AUTOSIZE); //Create Window
   namedWindow(trackbars_name,WINDOW_AUTOSIZE); //Create Trackbar Window
   createTrackbar(trackbar_value,trackbars_name,&threshold_value,threshold_max_binary_value,on_threshold_trackbar);
